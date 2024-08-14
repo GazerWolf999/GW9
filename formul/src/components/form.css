@@ -1,0 +1,158 @@
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+.h-custom {
+height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color:white;
+    color: white;
+}
+
+.vh-100 {
+    height: 100vh;
+}
+
+.h-custom {
+    height: calc(100% - 60px);
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.row {
+    height: 100%;
+}
+
+
+.form-control {
+    background-color:whitesmoke;
+    border-radius: 5px;
+    padding: 20px;
+    width: 30%;
+}
+
+.form-control::placeholder {
+    color: #888888;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 10px; /* Adjust the value to your preference */
+}
+
+/* Additional spacing between form groups (input and label) */
+.form-outline {
+  margin-bottom: 20px; /* Adjust the value to your preference */
+}
+
+.btn-primary {
+    background-color: #00bcd4;
+    padding: 15px 30px;
+    font-size: 15px;
+    border: none;
+    border-radius: 8px;
+    box-shadow:  5px 5px 10px #b0b0b0, 
+                 -5px -5px 10px #ffffff;
+    color:white;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    margin-left:3px;
+    margin-top: 20px;
+    
+}
+.inline{
+	display: inline;
+}
+#text-body {
+    color:black;
+    text-decoration: none;
+    text-align: center;
+    padding-left: 225px;
+}
+
+
+#text-body:hover {
+    color:#00bcd4 ;
+}
+
+.link-danger {
+    color: #ff4b5c;
+    text-decoration: none;
+}
+
+.link-danger:hover {
+    color: #00bcd4 ;
+}
+
+.text-white {
+    color: #ffffff;
+}
+
+.bg-primary {
+    background-color: #1E1E1E !important;
+}
+
+.btn-floating i {
+    color: white;
+}
+
+.divider {
+    border-bottom: 1px solid #333;
+    margin: 30px 0;
+}
+
+.lead {
+    color: #ffffff;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff4b5c;
+}
+
+#form-check-label {
+    color:black;
+}
+.inline{
+    display:inline;
+
+}
+
+.form-check-input {
+    background-color: #1E1E1E;
+    border: 1px solid #444;
+    color: #ffffff;
+}
+.col-md-9{
+  float: left;
+}
+.ol-md-8{
+  float:right;
+  
+}
+
+.sign{
+	color: black;
+	font-size: 25px;
+	font-weight: bold;
+    padding-right: 20px;
+}
+
